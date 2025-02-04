@@ -1,0 +1,12 @@
+sentence-transformers==2.2.2 # Sentence transformers mainly used as an open-source python framework for vector embeddings.Uses Hugging Face Transformers and TensorFlow.
+langchain # Langchain is a python library that provides a simple and easy way to chain multiple language models together.
+flask # For user interface
+pypdf # For reading pdf files
+python-dotenv # For environment variables
+pinecone[grpc] # For storing embeddings
+langchain-pinecone # For using pinecone with langchain
+langchain_community # For using community models
+langchain_openai # For using openai models
+langchain_experimental # For using experimental models
+-e .
+
